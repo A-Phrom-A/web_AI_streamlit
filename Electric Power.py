@@ -648,20 +648,30 @@ def main():
         st.write("ทำนายราคาของมือถือในชุดข้อมูลทดสอบและบันทึกผลลัพธ์ลงในไฟล์ CSV พร้อมทั้งบันทึกโมเดล KNN สำหรับใช้งานในอนาคต")
         
     elif choice == 'About':
-        st.subheader('About This Project')
-        st.write('''
+        st.subheader('📌 About This Project')
+        st.write("""
             - This project is developed using **Streamlit** for the frontend interface.
-            - It utilizes **Machine Learning** models like **Linear Regression**, **KNN**, **Logistic Regression**, **Decision Trees**, **Random Forest**, and **Neural Networks** for mobile price prediction.
-            - The project is deployed using **Streamlit** to allow easy interaction and real-time predictions.
-            - The project is created by ** Kittisak Tantrtone **   6604062610021.
-            - You can contact the creator for inquiries or collaboration through the following channels:
-            
-            **Email**: [s6604062610021@email.kmutnb.ac.th]  
-     
-            **GitHub**: [https://github.com/A-Phrom-A]
-            
-            Feel free to reach out for more information or any questions regarding this project.
-        ''')
+            - It utilizes **Machine Learning** models such as **Linear Regression**, **K-Nearest Neighbors (KNN)**, **Logistic Regression**, **Decision Trees**, **Random Forest**, and **Neural Networks** for mobile price prediction.
+            - The project is deployed using **Streamlit**, allowing easy interaction and real-time predictions.
+        """)
+
+        st.subheader('👨‍💻 Developer Information')
+        st.write("""
+            - **Creator**: **Kittisak Tantrtone** (6604062610021)
+            - **Email**: [s6604062610021@email.kmutnb.ac.th](mailto:s6604062610021@email.kmutnb.ac.th)
+            - **GitHub**: [A-Phrom-A](https://github.com/A-Phrom-A)
+        """)
+
+        st.subheader('📊 Datasets Used')
+        st.write("""
+            - **Predict Old Mobile Price (2000-2010)**  
+            [Dataset Link](https://www.kaggle.com/code/melissamonfared/mobile-price-prediction-eda-classification?select=test.csv)
+            - **New Mobile Price Prediction (2020-2025)**  
+            [Dataset Link](https://www.kaggle.com/code/hanymato/mobile-price-prediction-model/input)
+        """)
+
+        st.write("💡 *Feel free to reach out for inquiries, collaborations, or further details about this project!* 🚀")
+
 
 
 if __name__ == '__main__':
